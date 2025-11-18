@@ -97,3 +97,19 @@ html,body{
 .contactHover:hover{
     display: block;
 }
+
+.bloghover{
+     height: 400px;
+    width: 100%;
+    background-color: rgb(172, 39, 106);
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+#blog:hover + .bloghover{
+    display: block;
+}
+
+.bloghover:hover{
+    display: block;
+}
