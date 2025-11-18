@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.box{
+
+    height: 500px;
+    width: 800px;
+    /* background-color: orange; */
+    /* border: 2px solid black; */
+    /* border-top: 10px solid black;
+    border-bottom: 10px solid green;
+    border-left: 10px solid red;
+    border-right: 10px solid orange; */
+    border: 10px solid orange;
+}
+
