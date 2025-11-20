@@ -55,8 +55,8 @@ html,body{
     border-radius: 0px 40px 0px 40px ;
 }
 
-
-@media screen and (min-width:320px) and (max-width:428px){
+/* 
+@media screen and (min-width:300px) and (max-width:400px){
 
  .menus{
     display: none;
@@ -71,5 +71,5 @@ html,body{
     display: block;
     font-size: 27px;
  }
-}
+} */
 
