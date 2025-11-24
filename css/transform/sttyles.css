@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    height:100%;
+    width:100%;
+    background-color: orange;
+    transition: all 0.2s linear;
+    background-image: url('https://picsum.photos/200/300');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+}
+
+
+.card:nth-child(even){
+    background-image: url('https://picsum.photos/200');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+/* .card img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s linear;
+} */
+/* 
+img:hover{
+    transform: scale(1.2);
+    
+} */
+
+/* .card:hover{
+    transform: scaleY(2);
+} */
+
+
+/* .card:nth-child(3){
+    background-color: green;
+    border-radius: 20px;
+    background-image: url('https://picsum.photos/200/300');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
